@@ -1,0 +1,1 @@
+export const title = 'text-center text-4xl';

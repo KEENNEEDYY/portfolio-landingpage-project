@@ -1,7 +1,7 @@
-import * as css_app from './css-app';
 import { useState } from 'react';
 import Header from '../../components/Header';
 import MobileHeader from '../../components/MobileHeader';
+import Introduction from '../sections/Introduction';
 
 export default function Home() {
 
@@ -20,9 +20,7 @@ export default function Home() {
       <MobileHeader header={header} closeHeader={closeHeader} />
       <Header openHeader={openHeader} />
       <main>
-        <section>
-          <h1 className={css_app.title}>Hello Friend</h1>
-        </section>
+        <Introduction />
       </main>
     </>
   )

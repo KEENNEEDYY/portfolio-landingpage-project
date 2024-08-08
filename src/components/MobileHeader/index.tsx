@@ -20,7 +20,7 @@ export default function MobileHeader({ header, closeHeader }: Props) {
                 <div className="nav-link-mobile" >BLOG</div>
                 <div className="nav-link-mobile" >CONTACT</div>
             </div>
-            <div onClick={closeHeader} className={css_mobile_header.hamburger_container}>
+            <div onClick={closeHeader} className={css_mobile_header.close_container}>
                 <XMarkIcon />
             </div>
         </div>

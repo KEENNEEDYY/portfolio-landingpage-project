@@ -11,8 +11,8 @@ export default function Header({ openHeader }: Props) {
         <div className={css_header.header_container}>
             <div className={css_header.header_itens}>
                 <h1 className={css_header.header_title}>
-                    Powerlink
-                    <span className={css_header.header_title_span}>Company</span>
+                    Desenvolvedor
+                    <span className={css_header.header_title_span}>Kennedy</span>
                 </h1>
                 <div className="nav-link">Home</div>
                 <div className="nav-link">SERVICES</div>
@@ -21,7 +21,7 @@ export default function Header({ openHeader }: Props) {
                 <div className="nav-link">BLOG</div>
                 <div className="nav-link">CONTACT</div>
                 <div onClick={openHeader}>
-                    <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
+                    <Bars3Icon className="w-[2rem] lg:hidden h-[2rem] cursor-pointer text-yellow-300" />
                 </div>
             </div>
         </div>

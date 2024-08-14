@@ -1,8 +1,8 @@
 import * as css_introduction from './css-introduction';
-import '../../../../src/assets/banner.jpg';
-import Particle from "../../../components/Particle";
-import TextEffect from '../../../components/TextEffect';
-import PerfilImage from '../../../../src/assets/profile-pic-about.jpg';
+import '../../../../../src/assets/banner.jpg';
+import Particle from "../../../../components/Particle";
+import TextEffect from '../../../../components/TextEffect';
+import PerfilImage from '../../../../../src/assets/profile-pic-about.jpg';
 import { ArrowDownTrayIcon, PlayCircleIcon } from '@heroicons/react/20/solid';
 
 export default function Introduction() {

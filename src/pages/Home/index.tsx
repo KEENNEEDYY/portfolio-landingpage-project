@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Header from '../../components/Header';
 import MobileHeader from '../../components/MobileHeader';
-import Introduction from '../sections/Introduction';
+import Introduction from './sections/Introduction';
+import About from './sections/About';
 
 export default function Home() {
 
@@ -21,6 +22,9 @@ export default function Home() {
       <Header openHeader={openHeader} />
       <main>
         <Introduction />
+        <div className="relative z-[30]">
+          <About />
+        </div>
       </main>
     </>
   )

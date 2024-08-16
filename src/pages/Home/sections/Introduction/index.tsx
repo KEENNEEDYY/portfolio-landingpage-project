@@ -19,9 +19,9 @@ export default function Introduction() {
             Como um desenvolvedor full-stack, dedico-me a transformar ideias em aplicações inovadoras. Explore meus projetos mais recentes, mostrando minha experiência em React, SpringBoot e desenvolvimento de sistemas.
           </p>
           <div className={css_introduction.buttons_container}>
-            <button className={css_introduction.cv_button}>
+            <button className="button-cv-primary">
               <p>Download Cv</p>
-              <ArrowDownTrayIcon className={css_introduction.cv_button_icon} />
+              <ArrowDownTrayIcon className="button-cv-icon-primary" />
             </button>
             <button className={css_introduction.video_button}>
               <PlayCircleIcon className={css_introduction.video_button_icon} />

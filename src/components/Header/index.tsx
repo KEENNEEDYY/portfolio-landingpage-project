@@ -15,8 +15,8 @@ export default function Header({ openHeader }: Props) {
                     <span className={css_header.header_title_span}>Kennedy</span>
                 </h1>
                 <div className="nav-link">Home</div>
-                <div className="nav-link">SERVICES</div>
                 <div className="nav-link">ABOUT</div>
+                <div className="nav-link">SERVICES</div>
                 <div className="nav-link">PROJECT</div>
                 <div className="nav-link">BLOG</div>
                 <div className="nav-link">CONTACT</div>

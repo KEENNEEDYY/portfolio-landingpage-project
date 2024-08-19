@@ -14,8 +14,8 @@ export default function MobileHeader({ header, closeHeader }: Props) {
         <div className={headerAnimation + css_mobile_header.container}>
             <div className={css_mobile_header.itens}>
                 <div className="nav-link-mobile" >HOME</div>
-                <div className="nav-link-mobile" >SERVICES</div>
                 <div className="nav-link-mobile" >ABOUT</div>
+                <div className="nav-link-mobile" >SERVICES</div>
                 <div className="nav-link-mobile" >PROJECT</div>
                 <div className="nav-link-mobile" >BLOG</div>
                 <div className="nav-link-mobile" >CONTACT</div>

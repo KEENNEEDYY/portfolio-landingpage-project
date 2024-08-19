@@ -1,6 +1,6 @@
 import * as css_about from './css-about';
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
-import aboutImg from '../../../../assets/about.jpg';
+import aboutImg from '../../../../assets/avatar.png';
 
 export default function About() {
     return (

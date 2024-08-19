@@ -1,56 +1,43 @@
-import { CodeBracketSquareIcon, CommandLineIcon, RocketLaunchIcon } from "@heroicons/react/20/solid";
+import { CodeBracketIcon, ServerStackIcon, ShareIcon } from "@heroicons/react/24/outline";
+import * as css_service from "./css-service";
 
 export default function Service() {
     return (
-        <section className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]">
+        <section className={css_service.section}>
             <div>
                 <p className="heading">
-                    Service <span className="text-yellow-400">section</span>
+                    My <span className="text-yellow-400">Services</span>
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
+                <div className={css_service.card_container + " h-auto"}>
                     <div>
-                        <div className="bg-red-700 hover:scale-110 
-                            transform transition-all duration-300 hover:-rotate-6 uppercase 
-                            font-semibold text-center p-[2rem]"
-                        >
-                            <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
-                            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">Frontend</h1>
-                            <p className="text-[15px] text-[#ded2d2] font-normal">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Adipisci aut dignissimos fuga animi tenetur deserunt, vitae quia deleniti blanditiis dolor.
+                        <div className={css_service.card + " " + css_service.card_one}>
+                            <ShareIcon className={css_service.card_icon} />
+                            <h1 className={css_service.card_title}>Network Analyst</h1>
+                            <p className={css_service.card_description}>
+                                Projetar, implementar e manter redes de computadores,
+                                garantindo conectividade, segurança e resolução de problemas para operações eficientes
                             </p>
-
                         </div>
                     </div>
                     <div>
-                        <div className="bg-orange-700 hover:scale-110 
-                            transform transition-all duration-300 uppercase 
-                            font-semibold text-center p-[2rem]"
-                        >
-                            <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
-                            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">Backend</h1>
-                            <p className="text-[15px] text-[#ded2d2] font-normal">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Adipisci aut dignissimos fuga animi tenetur deserunt, vitae quia deleniti blanditiis dolor.
+                        <div className={css_service.card + " " + css_service.card_two}>
+                            <ServerStackIcon className={css_service.card_icon} />
+                            <h1 className={css_service.card_title}>DevOps</h1>
+                            <p className={css_service.card_description}>
+                                Integrar desenvolvimento e operações, automatizar processos,
+                                melhorar a colaboração e garantir entregas contínuas e eficientes de software.
                             </p>
-
                         </div>
                     </div>
                     <div>
-                        <div className="bg-blue-700 hover:scale-110 
-                            transform transition-all duration-300 hover:rotate-6 uppercase 
-                            font-semibold text-center p-[2rem]"
-                        >
-                            <CommandLineIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
-                            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">FullStack</h1>
-                            <p className="text-[15px] text-[#ded2d2] font-normal">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Adipisci aut dignissimos fuga animi tenetur deserunt, vitae quia deleniti blanditiis dolor.
+                        <div className={css_service.card + " " + css_service.card_three}>
+                            <CodeBracketIcon className={css_service.card_icon} />
+                            <h1 className={css_service.card_title}>FullStack</h1>
+                            <p className={css_service.card_description}>
+                                Criar e manter aplicações completas, trabalhando no front-end e back-end, integrando banco de dados e servidores.
                             </p>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

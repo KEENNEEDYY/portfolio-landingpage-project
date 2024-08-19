@@ -35,6 +35,10 @@
     .button-cv-icon-primary {
         @apply w-[1.6rem] h-[1.7rem] text-black;
     }
+
+    .heading {
+        @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase
+    }
 }
 
 :root {

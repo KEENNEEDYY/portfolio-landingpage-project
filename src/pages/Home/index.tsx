@@ -4,6 +4,7 @@ import MobileHeader from '../../components/MobileHeader';
 import Introduction from './sections/Introduction';
 import About from './sections/About';
 import Service from './sections/Service';
+import Skills from './sections/Skills';
 
 export default function Home() {
 
@@ -26,6 +27,7 @@ export default function Home() {
         <div className="relative z-[30]">
           <About />
           <Service />
+          <Skills />
         </div>
       </main>
     </>

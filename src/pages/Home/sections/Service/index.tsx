@@ -8,7 +8,7 @@ export default function Service() {
                 <p className="heading">
                     My <span className="text-yellow-400">Services</span>
                 </p>
-                <div className={css_service.card_container + " h-auto"}>
+                <div className={css_service.card_container}>
                     <div>
                         <div className={css_service.card + " " + css_service.card_one}>
                             <ShareIcon className={css_service.card_icon} />
@@ -34,7 +34,8 @@ export default function Service() {
                             <CodeBracketIcon className={css_service.card_icon} />
                             <h1 className={css_service.card_title}>FullStack</h1>
                             <p className={css_service.card_description}>
-                                Criar e manter aplicações completas, trabalhando no front-end e back-end, integrando banco de dados e servidores.
+                                Criar e manter aplicações completas, trabalhando no front-end e back-end,
+                                integrando banco de dados e servidores.
                             </p>
                         </div>
                     </div>

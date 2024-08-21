@@ -16,7 +16,8 @@ export default function Introduction() {
           </h1>
           <TextEffect />
           <p className={css_introduction.perfil_description}>
-            Como um desenvolvedor full-stack, dedico-me a transformar ideias em aplicações inovadoras. Explore meus projetos mais recentes, mostrando minha experiência em React, SpringBoot e desenvolvimento de sistemas.
+            Como um desenvolvedor full-stack, dedico-me a transformar ideias em aplicações inovadoras.
+            Explore meus projetos mais recentes, mostrando minha experiência em React, SpringBoot e desenvolvimento de sistemas.
           </p>
           <div className={css_introduction.buttons_container}>
             <button className="button-cv-primary">

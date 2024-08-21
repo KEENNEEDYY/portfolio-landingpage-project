@@ -32,7 +32,7 @@ export default function Service() {
                     <div>
                         <div className={css_service.card + " " + css_service.card_three}>
                             <CodeBracketIcon className={css_service.card_icon} />
-                            <h1 className={css_service.card_title}>FullStack</h1>
+                            <h1 className={css_service.card_title}>FullStack Developer</h1>
                             <p className={css_service.card_description}>
                                 Criar e manter aplicações completas, trabalhando no front-end e back-end,
                                 integrando banco de dados e servidores.

@@ -5,6 +5,8 @@ import Introduction from './sections/Introduction';
 import About from './sections/About';
 import Service from './sections/Service';
 import Skills from './sections/Skills';
+import Projects from './sections/Projects';
+import Brief from './sections/Brief';
 
 export default function Home() {
 
@@ -28,6 +30,8 @@ export default function Home() {
           <About />
           <Service />
           <Skills />
+          <Projects />
+          <Brief />
         </div>
       </main>
     </>

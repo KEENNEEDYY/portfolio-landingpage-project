@@ -8,9 +8,9 @@ export const icon_container = "md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] fle
 
 export const icon_style = "md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black";
 
-export const iten_title = "text-[25px] mb-[0.2rem] font-semibold text-white";
+export const iten_title = "text-[22px] mb-[0.2rem] font-semibold text-white";
 
-export const iten_subtitle = "text-[17px] w-[90%] text-white opacity-60";
+export const iten_subtitle = "text-[12px] w-[90%] text-white opacity-60";
 
 export const footnotes_container = "w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between";
 

@@ -9,7 +9,7 @@ export default function Service() {
                     My <span className="text-yellow-400">Services</span>
                 </p>
                 <div className={css_service.card_container}>
-                    <div>
+                    <div data-aos="fade-right">
                         <div className={css_service.card + " " + css_service.card_one}>
                             <ShareIcon className={css_service.card_icon} />
                             <h1 className={css_service.card_title}>Network Analyst</h1>
@@ -19,7 +19,7 @@ export default function Service() {
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div data-aos="zoom-in" data-aos-delay="300">
                         <div className={css_service.card + " " + css_service.card_two}>
                             <ServerStackIcon className={css_service.card_icon} />
                             <h1 className={css_service.card_title}>DevOps</h1>
@@ -29,7 +29,7 @@ export default function Service() {
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div data-aos="fade-left" data-aos-delay="500">
                         <div className={css_service.card + " " + css_service.card_three}>
                             <CodeBracketIcon className={css_service.card_icon} />
                             <h1 className={css_service.card_title}>FullStack Developer</h1>

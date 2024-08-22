@@ -28,7 +28,7 @@ export default function About() {
                             <ArrowDownTrayIcon className="button-cv-icon-primary" />
                         </button>
                     </div>
-                    <div className={css_about.img_container}>
+                    <div data-aos="fade-left" className={css_about.img_container}>
                         <img src={aboutImg} alt="user" className={css_about.img} />
                         <div className={css_about.img_shadow_background}></div>
                     </div>

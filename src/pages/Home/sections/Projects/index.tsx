@@ -11,17 +11,17 @@ export default function Projects() {
             </h1>
             <div>
                 <div className={css_projects.projects_container}>
-                    <div>
+                    <div data-aos="fade-up">
                         <div className={css_projects.image_container}>
                             <img className="object-contain" src={dscatalogImg} alt="portfolio" />
                         </div>
                     </div>
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="300">
                         <div className={css_projects.image_container}>
                             <img className="object-contain" src={dsvendasImg} alt="portfolio" />
                         </div>
                     </div>
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="600">
                         <div className={css_projects.image_container}>
                             <img className="object-contain" src={dsmovieImg} alt="portfolio" />
                         </div>

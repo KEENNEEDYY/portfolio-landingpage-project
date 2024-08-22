@@ -8,6 +8,7 @@ import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Brief from './sections/Brief';
 import Articles from './sections/Articles';
+import Footer from '../../components/Footer';
 
 export default function Home() {
 
@@ -34,6 +35,7 @@ export default function Home() {
           <Projects />
           <Brief />
           <Articles />
+          <Footer />
         </div>
       </main>
     </>
